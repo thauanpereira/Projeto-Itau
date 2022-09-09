@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #f0860c;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.header img {
+    width: 48px;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-left: 8px;
+    color:white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    max-width: 70vw;
+    height: 70vh;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
+    display: flex;
+    flex-direction: column;
+}
+
+.texto {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #ffd901;
+    align-self: center;
+}
+
+hr {
+    grid-column: 1 / span 2;
+    width: 70%;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img#logo2 {
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.dados {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+input[type=text], input[type=password] {
+    outline: none;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    padding: 2px 8px;
+    width: 128px;
+    font-size: 16px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border: none;
+    border-bottom: 1px solid #f0860c; 
+}
+
+input[type=submit] {
+    align-self: center;
+    margin-top: 30px;
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffd901;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.281);
+    color: rgb(90, 90, 90);
+    font-size: 16px;     
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #f0a80c;
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+}
+

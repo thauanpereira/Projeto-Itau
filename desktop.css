@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+
+    main {
+        max-width: 60vw;
+    }
+
+    img#logo1 {
+        display: none;
+    }
+
+    img#logo2 {
+        display: initial;
+        width: 150px;
+        height: 150px;
+        order: 2;
+        -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.185));
+    }
+
+    .centro {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="./imagens/itau logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="desktop.css">
+</head>
+<body>
+    <div class="header">
+         <i><img id="logo1" src="./imagens/itau logo.png" alt="itau"></i><h1>Bem-Vindo !</h1>
+    </div>
+    <main>
+        <div class="texto">Login</div>
+        <hr>
+        <form action="#" autocomplete="off" method="post">
+            <div class="centro">
+                <img id="logo2" src="./imagens/itau logo.png" alt="itau">
+                <div class="dados">
+                    <label for="cc">Conta-Corrente: <br>
+                    <input type="text" id="cc" required placeholder="xxxxxx-x"></label>
+                    <br>
+                    <label for="ag">Agência: <br>
+                    <input type="text" id="ag" required placeholder="xxxx"></label>
+                    <br>
+                    <label for="se">Senha Eletrônica: <br>
+                    <input type="password" id="se" required placeholder="6 digitos" minlength="6" max="6"></label>
+                </div>
+            </div>
+            <input type="submit" value="Entrar">         
+        </form>    
+    </main>
+</body>
+</html>
